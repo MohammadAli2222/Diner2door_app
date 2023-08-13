@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:elevation="5dp"
+
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="319dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="100dp"
+        android:padding="50dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="61dp"
+                android:layout_marginRight="10dp"
+                android:text="Total:"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="0dp"
+                android:text="TransID"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginRight="0dp"
+                android:text="Outlet Name"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="183dp"
+            android:layout_marginRight="10dp"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/total_amount_customer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="70dp"
+                android:text="This is Total Amount"
+                android:textColor="#000"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/outletID_customer"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_below="@id/total_amount_customer"
+
+                android:layout_marginLeft="70dp"
+                android:text="This is TransactionID"
+                android:textColor="#000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/transactionID_customer"
+                android:layout_width="wrap_content"
+                android:layout_height="53dp"
+                android:layout_below="@id/total_amount_customer"
+
+                android:layout_marginLeft="70dp"
+                android:text="Outlet Name"
+                android:textColor="#000"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

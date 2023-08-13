@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:ignore="HardcodedText">
+
+    <item
+        android:id="@+id/customernav_my_cart"
+        android:title="My Cart" />
+    <item
+        android:id="@+id/customernav_customer_profile"
+        android:title="My Profile" />
+
+    <item
+        android:id="@+id/customernav_customer_outlet"
+        android:title=" Eateries" />
+    <item
+        android:id="@+id/customernav_current_order"
+        android:title="Current Order" />
+    <item
+        android:id="@+id/customernav_transaction_history"
+        android:title="Transaction History" />
+    <item
+        android:id="@+id/customernav_logout"
+        android:title="Logout" />
+
+
+</menu>
